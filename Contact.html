@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link rel="logo" href="Tap logo.jpeg"><style>
+        body{
+            
+            background-image: linear-gradient(0deg, rgb(108, 238, 238),rgb(129, 129, 238));
+            height: 595px;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            width:15%;
+            height:200px
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="50px" align="right">
+        <tr width="5%">
+            <th><a href="index.html">Home</a></th>
+            <th><a href="About_Me.html">About Me</a></th>
+            <th><a href="Education.html">Education</a></th>
+            <th><a href="Projects.html">Projects</a></th>
+            <th><a href="Certificates.html">Certificates</a></th>
+            <th><a href="Contact.html">Contact</a></th>
+        </tr>
+    </table>
+    <br>
+    <img src="Tap logo.jpeg" alt=""> <br><br>
+    <form action="final message.html">
+    <h2>Contact Me</h2>
+        <h4><label for="name">Name</label><br>
+        <input type="text" required name="name" id="name" pattern="[A-Z]{1}[a-z]{10}"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" required name="email" id="email"><br><br>
+        <label for="num">Phone Number</label><br>
+        <input type="number" required name="num" id="num" pattern="[6789][0-9]{9}"><br><br>
+        <label for="msg">Message</label><br>
+        <input type="text" required name="msg" id="msg"><br><br>
+        <input type="submit"></h4>
+    </form>
+</body>
+</html>
